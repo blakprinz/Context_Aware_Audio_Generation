@@ -1,0 +1,5 @@
+An example picture from the Preparatory dataset dataset depicting a bed, a cupboard, a lamp, and a mirror
+An example picture from the Preparatory dataset dataset depicting a chair, and a table
+An example picture from the Preparatory dataset dataset depicting a curtain
+An example picture from the Preparatory dataset dataset depicting curtains, a flower pot, a lamp, and a window
+An example picture from the Preparatory dataset dataset depicting a jacket
