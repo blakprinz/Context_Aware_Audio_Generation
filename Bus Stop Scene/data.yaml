@@ -1,0 +1,267 @@
+#This file tells our python scripts 3 things: 1. Data Location 2. Number of Classes 3. Class Names
+
+train: C:/Users/path/OneDrive/Context_Aware_Audio_Generation/Bus Stop Scene/images
+val: C:/Users/path/OneDrive/Context_Aware_Audio_Generation/Bus Stop Scene/images   # if you don’t have a separate validation set
+
+# If you have COCO annotations:
+train_annotations: C:/Users/path/OneDrive/Context_Aware_Audio_Generation/Bus Stop Scene/_annotations.coco.json
+val_annotations: C:/Users/path/OneDrive/Context_Aware_Audio_Generation/Bus Stop Scene/_annotations.coco.json
+
+# train: /path/to/your/dataset/train.json
+# val: /path/to/your/dataset/val.json
+
+# Number of classes
+nc: 250
+
+# Class names - This MUST match the order in your COCO annotations
+names:
+  - Phone
+  - Keys
+  - Wallet
+  - ID card
+  - Watch
+  - Headphones
+  - Laptop
+  - Mouse
+  - Keyboard
+  - Monitor
+  - Desk
+  - Chair
+  - Pen
+  - Pencil
+  - Notebook
+  - Book
+  - Coffee mug
+  - Water bottle
+  - Plate
+  - Fork
+  - Spoon
+  - Knife
+  - Bowl
+  - Cup
+  - Napkin
+  - Paper towel
+  - Trash can
+  - Light switch
+  - Lamp
+  - Couch
+  - Television
+  - Remote control
+  - Speaker
+  - Router
+  - Power outlet
+  - Charger
+  - USB cable
+  - Backpack
+  - Shopping bag
+  - Car
+  - Bicycle
+  - Helmet
+  - Jacket
+  - T-shirt
+  - Jeans
+  - Shoes
+  - Socks
+  - Underwear
+  - Belt
+  - Hat
+  - Gloves
+  - Umbrella
+  - Mirror
+  - Hairbrush
+  - Toothbrush
+  - Toothpaste
+  - Soap
+  - Shampoo
+  - Conditioner
+  - Towel
+  - Toilet paper
+  - Faucet
+  - Sink
+  - Toilet
+  - Showerhead
+  - Razor
+  - Shaving cream
+  - Deodorant
+  - Perfume
+  - Hairspray
+  - Comb
+  - Band-aid
+  - Medication bottle
+  - Thermometer
+  - First-aid kit
+  - Tissue box
+  - Eyeglasses
+  - Sunglasses
+  - Contact lenses
+  - Credit card
+  - Cash
+  - Coins
+  - Checkbook
+  - Envelope
+  - Stamp
+  - Postcard
+  - Calendar
+  - Clock
+  - Alarm clock
+  - Picture frame
+  - Vase
+  - Plant
+  - Flowerpot
+  - Curtains
+  - Blinds
+  - Pillow
+  - Blanket
+  - Sheet
+  - Mattress
+  - Bed frame
+  - Wardrobe
+  - Hanger
+  - Drawer
+  - Screwdriver
+  - Hammer
+  - Pliers
+  - Tape measure
+  - Flashlight
+  - Battery
+  - Lighter
+  - Matches
+  - Candle
+  - Magazine
+  - Newspaper
+  - Mail
+  - Bills
+  - Receipt
+  - Scissors
+  - Glue
+  - Tape
+  - Stapler
+  - Paperclip
+  - Rubber band
+  - Folder
+  - Binder
+  - Marker
+  - Highlighter
+  - Eraser
+  - Ruler
+  - Compass
+  - Protractor
+  - Calculator
+  - Whiteboard
+  - Dry-erase marker
+  - Chalk
+  - Sponge
+  - Dish soap
+  - Dishwasher
+  - Dish rack
+  - Oven
+  - Microwave
+  - Toaster
+  - Blender
+  - Mixer
+  - Coffee maker
+  - Kettle
+  - Can opener
+  - Corkscrew
+  - Spatula
+  - Whisk
+  - Tongs
+  - Cutting board
+  - Pot
+  - Pan
+  - Lid
+  - Oven mitts
+  - Apron
+  - Refrigerator
+  - Freezer
+  - Ice cube tray
+  - Jar
+  - Container
+  - Tupperware
+  - Food storage bag
+  - Aluminum foil
+  - Plastic wrap
+  - Garbage bag
+  - Broom
+  - Dustpan
+  - Vacuum cleaner
+  - Mop
+  - Bucket
+  - Cleaning spray
+  - Paper
+  - Cardboard box
+  - Cereal box
+  - Milk carton
+  - Juice bottle
+  - Soda can
+  - Wine bottle
+  - Beer bottle
+  - Bottle opener
+  - Wine glass
+  - Drinking glass
+  - Coaster
+  - Placemat
+  - Salt shaker
+  - Pepper shaker
+  - Spice rack
+  - Grill
+  - Barbecue tongs
+  - Garden hose
+  - Shovel
+  - Rake
+  - Watering can
+  - Sprinkler
+  - Lawnmower
+  - Scented candle
+  - Air freshener
+  - Coat hanger
+  - Iron
+  - Ironing board
+  - Laundry basket
+  - Clothesline
+  - Dryer sheets
+  - Detergent
+  - Fabric softener
+  - Bleach
+  - Stain remover
+  - Sewing kit
+  - Thread
+  - Needle
+  - Safety pin
+  - Button
+  - Zipper
+  - Elastic band
+  - Rubber gloves
+  - Hand sanitizer
+  - Face mask
+  - Shopping cart
+  - Shopping basket
+  - Vending machine
+  - ATM
+  - Ticket
+  - Passport
+  - Luggage
+  - Suitcase
+  - Map
+  - Binoculars
+  - Camera
+  - Tripod
+  - Microphone
+  - Game controller
+  - Playing cards
+  - Dice
+  - Jigsaw puzzle
+  - Lego bricks
+  - Doll
+  - Toy car
+  - Ball
+  - Jump rope
+  - Skateboard
+  - Scooter
+  - Swing
+  - Slide
+  - Teeter-totter
+  - Sandbox
+  - Beach ball
+  - Beach towel
+  - Sunscreen

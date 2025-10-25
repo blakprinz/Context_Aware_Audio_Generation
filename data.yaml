@@ -1,15 +1,18 @@
 #This file tells our python scripts 3 things: 1. Data Location 2. Number of Classes 3. Class Names
 
-# Dataset paths
-train: /path/to/your/dataset/images/train/
-val: /path/to/your/dataset/images/val/
+train: C:/Users/path/Context_Aware_Audio_Generation/Bus Stop Scene/images
+val: C:/Users/path/Context_Aware_Audio_Generation/Bus Stop Scene/images   # if you don’t have a separate validation set
+
+# If you have COCO annotations:
+train_annotations: C:/Users/path/Context_Aware_Audio_Generation/Bus Stop Scene/_annotations.coco.json
+val_annotations: C:/Users/path/Context_Aware_Audio_Generation/Bus Stop Scene/_annotations.coco.json
 
 # For COCO format, you can also point to the JSON files
 # train: /path/to/your/dataset/train.json
 # val: /path/to/your/dataset/val.json
 
 # Number of classes
-nc: 256
+nc: 250
 
 # Class names - This MUST match the order in your COCO annotations
 names:
